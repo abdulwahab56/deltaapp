@@ -1,0 +1,81 @@
+.pricing_section {
+  padding: 25px 0;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center; */
+  background: #101522;
+  color: #fff;
+}
+.pricing_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.pricing_heading {
+  font-size: 3rem;
+  font-weight: 600;
+  letter-spacing: 2.4px;
+}
+.pricing_feature {
+  font-size: 1rem;
+}
+.pcontain {
+  display: flex;
+  justify-content: center;
+  flex-flow: wrap;
+  margin: 0.7rem;
+}
+.pricing_info {
+  background: #242424;
+  box-shadow: 0 6px 20px rgba(56, 125, 255, 0.2);
+  width: 280px;
+  text-decoration: none;
+  border-radius: 4px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  margin: auto;
+}
+.pricing_card:hover {
+  transform: scale(1.06);
+  transition: all 0.3s ease-out;
+}
+.PricingCard_Plan {
+  font-size: 2rem;
+  margin-bottom: 5px;
+}
+.PricingCard_cost {
+  font-size: 1.2rem;
+}
+.PricingCard_text {
+  font-size: 1.1rem;
+  margin: 0.4rem 0 1.3rem;
+  color: #a9b3c1;
+}
+.Pricing_feature {
+  margin: 16px 0 32px;
+
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  color: #a9b3c1;
+}
+.pricingcard_feature {
+  margin-bottom: 1rem;
+  display: flex;
+  font-size: 0.94rem;
+}
+.pricingcard_feature:before {
+  content: "🎧";
+  margin-right: 0.4rem;
+}
+.pri_btn {
+  border: none;
+  font-size: 1.2rem;
+  padding: 0.5rem 0;
+  background: #242424;
+  color: #fff;
+  border: 2px solid #a9b3c1;
+}
